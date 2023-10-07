@@ -1,23 +1,52 @@
 body { 
-    background: #CCCCCC;
+    background:#FFFFFF; /*cor de fundo*/ 
 }
- 
-#banner { 
-    width: 100%;
+
+#banner {
+     width:100%; /*largura*/ 
 } 
 
-h1 { 
-    text-align: center;
+.principal{ 
+    background: #CCCCCC; /*cor de fundo*/ 
+    padding: 30px; /*espaçamento interno*/ 
 }
-    
-p {
-    text-align: center;
-}  
+
+h1 {
+    text-align: center; /*alinhamento do texto*/ 
+} 
+
+P { 
+    text-align: center; /*alinhamento do texto*/
+}
 
 #missao {
-    font-size: 20px;
+    font-size: 20px; /*tamanho da fonte*/
 }
- 
+
 em strong { 
-    color: #FF0000;
+    color: #FF0000; /*cor*/
+} 
+
+.itens { 
+    font-style: italic; /*tamanho da fonte*/ 
+} 
+
+.beneficios {
+    background: #FFFFFF; /*cor de fundo*/ 
+    padding: 20px; /*espaçamento interno*/ 
+} 
+
+h2 { text-align: center; /*alinhamento do texto*/
+}
+
+ul { 
+    display: inline-block; /* permite definir uma largura e
+    altura no elemento*/ 
+    vertical-align: top; /*alinhamento vertical do conteúdo*/ 
+    width: 20%; /largura/ 
+    margin-right: 15%; /*tamanho da margin direita*/ 
+} 
+
+.imagembeneficios {
+    width: 50%; /*largura*/ 
 }
