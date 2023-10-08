@@ -43,7 +43,7 @@ ul {
     display: inline-block; /* permite definir uma largura e
     altura no elemento*/ 
     vertical-align: top; /*alinhamento vertical do conteúdo*/ 
-    width: 20%; /largura/ 
+    width: 20%; /*largura*/ 
     margin-right: 15%; /*tamanho da margin direita*/ 
 } 
 
